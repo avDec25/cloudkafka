@@ -1,0 +1,16 @@
+{
+  "namespace": "com.learn.cloudkafka",
+  "type": "record",
+  "name": "BusinessCard",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "id",
+      "type": "int"
+    }
+  ]
+}
